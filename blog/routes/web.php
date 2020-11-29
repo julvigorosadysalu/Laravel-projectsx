@@ -26,5 +26,3 @@ Route::get('/midtest','HomeController@midtest')->name('midtest');
 Route::get('/finaltest','HomeController@finaltest')->name('finaltest');
 Route::get('/improvement','HomeController@improvement')->name('improvement');
 Route::get('/schedule','HomeController@schedule')->name('schedule');
-
-Route::resource('category', 'CategoryController');
